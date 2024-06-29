@@ -1,4 +1,0 @@
-name: OrykMinesNew
-version: '${project.version}'
-main: com.gukdev.orykminesnew.Main
-api-version: '1.21'

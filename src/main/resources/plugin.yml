@@ -1,0 +1,15 @@
+name: OrykMinesNew
+main: com.gukdev.orykminesnew.OrykMinesNew
+version: 1.0
+api-version: 1.20
+author: GukMC
+description: Enhances Minecraft Prison servers with dynamic and customizable mine regions.
+commands:
+  orykmines:
+    description: Main command for OrykMinesNew.
+    usage: /orykmines <command>
+    aliases: [om]
+permissions:
+  orykmines.admin:
+    description: Allows access to all admin commands.
+    default: op

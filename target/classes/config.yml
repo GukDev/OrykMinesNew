@@ -1,0 +1,64 @@
+# config.yml
+messages:
+  region_created: "Mine region %region_name% created successfully."
+  region_not_exist: "Region %region_name% does not exist."
+  region_manager_error: "Could not retrieve WorldGuard region manager."
+  mine_region_not_exist: "Mine region %region_name% does not exist."
+  mine_list_header: "Configured mine regions:"
+  mine_list_empty: "No mine regions configured."
+  mine_status_header: "Status of mine region %region_name%:"
+  mine_status_regenerating_blocks: "Blocks currently regenerating:"
+
+mines:
+  Mine1:
+    blocks:
+      COAL_ORE:
+        chance: 0.3
+        drops:
+          COAL:
+            chance: 1.0
+          IRON_INGOT:
+            chance: 0.1
+      IRON_ORE:
+        chance: 0.2
+        drops:
+          IRON_INGOT:
+            chance: 1.0
+      COAL_BLOCK:
+        chance: 0.1
+        drops:
+          COAL:
+            chance: 1.0
+      STONE:
+        chance: 0.4
+        drops:
+          COBBLESTONE:
+            chance: 1.0
+    regeneration:
+      min_time: 30
+      max_time: 60
+  Mine2:
+    blocks:
+      GOLD_ORE:
+        chance: 0.4
+        drops:
+          GOLD_INGOT:
+            chance: 1.0
+      DIAMOND_ORE:
+        chance: 0.1
+        drops:
+          DIAMOND:
+            chance: 1.0
+      EMERALD_ORE:
+        chance: 0.05
+        drops:
+          EMERALD:
+            chance: 1.0
+      STONE:
+        chance: 0.45
+        drops:
+          COBBLESTONE:
+            chance: 1.0
+    regeneration:
+      min_time: 20
+      max_time: 40
